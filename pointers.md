@@ -61,6 +61,7 @@ int main (void) {
 	printf("%d\n", x);
 	return 0;
 }
+```
 
 If you run this, we get the output we wanted!
 
@@ -109,4 +110,5 @@ But, wait, why did that happen? When we tried that with `int`s, the value didn't
 Brace yourself.
 
 When we declare `int x[]`, `x` actually became a pointer. What happens is, a little bit of memory is reserved for that array, and `x` is made to contain the address at the begginning of the array!
+
 
